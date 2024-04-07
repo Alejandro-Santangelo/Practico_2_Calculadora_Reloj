@@ -42,10 +42,15 @@ function dividir() {
 
 // Función para obtener y mostrar la hora actualizada
 function mostrarHora() {
-  const ahora = new Date();
+  /*const ahora = new Date();
   const hora = ahora.getHours();
   const minutos = ahora.getMinutes();
   const segundos = ahora.getSeconds();
+  relojDiv.innerText = `Hora actual: ${hora}:${minutos}:${segundos}`;*/
+  const ahora = new Date();
+  const hora = ahora.getHours();
+  const minutos = ahora.getMinutes().toString().padStart(2, '0');
+  const segundos = ahora.getSeconds().toString().padStart(2, '0');
   relojDiv.innerText = `Hora actual: ${hora}:${minutos}:${segundos}`;
 }
 
