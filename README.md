@@ -1,0 +1,1 @@
+Con soporte de tutoriales e I.A. , usando html , js y css , subo un proyecto que realiza las 4 operaciones matematicas primarias, muestra el resultado y, en otra ventana, la hora actualizada cada segundo 
